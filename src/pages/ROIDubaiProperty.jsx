@@ -9,7 +9,7 @@ import { ArrowDown, Shield, Percent, TrendingUp, RefreshCw } from 'lucide-react'
 import { Button } from '@/components/ui/button';
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from '@/components/ui/select';
 import {
-  CampaignHeader, CampaignFooter, WhatsAppFloat, TrustStrip,
+  WhatsAppFloat, TrustStrip,
   FounderStrip, RedCTABand, CampaignLeadForm, FaqAccordion
 } from '@/components/campaign/CampaignShared';
 import usePageSEO from '@/lib/usePageSEO';

@@ -9,7 +9,7 @@ import { Users, Home, Globe, TrendingUp, ArrowRight, CheckCircle2 } from 'lucide
 import { Button } from '@/components/ui/button';
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from '@/components/ui/select';
 import {
-  CampaignHeader, CampaignFooter, WhatsAppFloat, TrustStrip,
+  WhatsAppFloat, TrustStrip,
   FounderStrip, RedCTABand, CampaignLeadForm, FaqAccordion, WA_BASE
 } from '@/components/campaign/CampaignShared';
 import usePageSEO from '@/lib/usePageSEO';

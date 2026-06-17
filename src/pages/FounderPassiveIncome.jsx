@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom';
 import { motion } from 'framer-motion';
 import { Play, TrendingUp, Percent, Shield, ArrowRight } from 'lucide-react';
 import {
-  CampaignHeader, CampaignFooter, WhatsAppFloat, TrustStrip,
+  WhatsAppFloat, TrustStrip,
   RedCTABand, CampaignLeadForm, FaqAccordion
 } from '@/components/campaign/CampaignShared';
 import usePageSEO from '@/lib/usePageSEO';
