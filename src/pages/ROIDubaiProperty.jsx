@@ -184,7 +184,6 @@ export default function ROIDubaiProperty() {
 
   return (
     <div className="min-h-screen bg-white font-body">
-      <CampaignHeader ctaLabel="Book a Consultation" ctaHref="#lead-form" />
       <WhatsAppFloat message="Hi%20RE%2FMAX%20ZAM%2C%20I%20want%20to%20learn%20about%20the%2010%25%20ROI%20property%20investment." />
 
       {/* ── HERO ── */}
@@ -315,8 +314,6 @@ export default function ROIDubaiProperty() {
           <CampaignLeadForm dark={false} source="Bottom CTA — /10-net-roi-dubai-property" ctaLabel="Get My Personalised Plan" />
         </div>
       </RedCTABand>
-
-      <CampaignFooter />
     </div>
   );
 }

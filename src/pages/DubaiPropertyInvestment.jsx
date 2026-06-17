@@ -322,7 +322,6 @@ export default function DubaiPropertyInvestment() {
 
   return (
     <div className="min-h-screen bg-white font-body">
-      <CampaignHeader ctaLabel="Book a Consultation" ctaHref="#lead-form" />
       <WhatsAppFloat />
 
       {/* ── HERO ── */}
@@ -533,8 +532,6 @@ export default function DubaiPropertyInvestment() {
           </a>
         </div>
       </RedCTABand>
-
-      <CampaignFooter />
     </div>
   );
 }

@@ -75,7 +75,6 @@ export default function FounderPassiveIncome() {
 
   return (
     <div className="min-h-screen bg-white font-body">
-      <CampaignHeader ctaLabel="Book a Call With My Team" ctaHref="#lead-form" />
       <WhatsAppFloat />
 
       {/* ── HERO ── */}
@@ -203,8 +202,6 @@ export default function FounderPassiveIncome() {
           <CampaignLeadForm dark={false} source="Bottom CTA — /my-dubai-passive-income" ctaLabel="Book a Call With My Team" />
         </div>
       </RedCTABand>
-
-      <CampaignFooter />
     </div>
   );
 }

@@ -168,7 +168,6 @@ export default function GoldenVisaProperty() {
 
   return (
     <div className="min-h-screen bg-white font-body">
-      <CampaignHeader ctaLabel="Check My Eligibility" ctaHref="#eligibility" />
       <WhatsAppFloat />
 
       {/* ── HERO ── */}
@@ -282,8 +281,6 @@ export default function GoldenVisaProperty() {
           <CampaignLeadForm dark={false} source="Bottom CTA — /dubai-golden-visa-property" ctaLabel="Get My Eligibility Report" />
         </div>
       </RedCTABand>
-
-      <CampaignFooter />
     </div>
   );
 }

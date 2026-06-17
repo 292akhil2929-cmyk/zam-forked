@@ -97,7 +97,6 @@ export default function DugastaFAQ() {
   return (
     <div className="min-h-screen bg-white font-body">
       <FAQSchema />
-      <CampaignHeader ctaLabel="Talk to an Advisor" ctaHref="#lead-form" />
       <WhatsAppFloat />
 
       {/* ── HERO ── */}
@@ -166,8 +165,6 @@ export default function DugastaFAQ() {
           <MessageCircle className="w-4 h-4" /> WhatsApp Us
         </a>
       </RedCTABand>
-
-      <CampaignFooter />
     </div>
   );
 }
